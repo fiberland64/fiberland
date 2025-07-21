@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIVERLAND.NET</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0faff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #00bfff, #7fff00, #ffeb3b);
+      color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e0f7fa;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      margin: 10px 15px;
+      text-decoration: none;
+      color: #00796b;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .services ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .contact-form, .connection-form {
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #999;
+      border-radius: 5px;
+    }
+    button {
+      background: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .reviews {
+      background: #fff3e0;
+      border-left: 5px solid #ff9800;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #c8e6c9;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FIVERLAND.NET</h1>
+    <p>আপনার বিশ্বস্ত ইন্টারনেট সার্ভিস প্রদানকারী</p>
+  </header>
+
+  <nav>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#services">সার্ভিস</a>
+    <a href="#gallery">ছবি</a>
+    <a href="#reviews">রিভিউ</a>
+    <a href="#contact">যোগাযোগ</a>
+    <a href="#connection">নতুন কানেকশন</a>
+    <a href="#map">ম্যাপ</a>
+  </nav>
+
+  <section id="about">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>
+      FIVERLAND.NET একটি নির্ভরযোগ্য ইন্টারনেট সার্ভিস প্রদানকারী প্রতিষ্ঠান, যা ঢাকা ডেমরা, সাইনবোর্ড, পঞ্চায়েতের মোড়, সিটি টাওয়ার এলাকা জুড়ে দ্রুতগতি সম্পন্ন ইন্টারনেট ও ডিজিটাল পরিষেবা সরবরাহ করে।
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>আমাদের সার্ভিসসমূহ</h2>
+    <ul>
+      <li>হোম ব্রডব্যান্ড কানেকসন</li>
+      <li>করপোরেশন কানেকসন</li>
+      <li>রিয়াল আইপি কানেকসন</li>
+      <li>সিসি টিভি সার্ভিস ও ইনস্টলেশন</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>আমাদের কাজের কিছু ঝলক</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/250x150?text=Router+Install" alt="Router Install" />
+      <img src="https://via.placeholder.com/250x150?text=CCTV+Setup" alt="CCTV Setup" />
+      <img src="https://via.placeholder.com/250x150?text=Fiber+Work" alt="Fiber Work" />
+      <img src="https://via.placeholder.com/250x150?text=Customer+Support" alt="Customer Support" />
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>গ্রাহক রিভিউ</h2>
+    <div class="reviews">
+      <p><strong>রাকিব হাসান:</strong> "খুব ভালো সার্ভিস! ইন্টারনেট স্পিড এক কথায় দুর্দান্ত।"</p>
+      <p><strong>সাবিনা আক্তার:</strong> "সাপোর্ট টিম খুবই হেল্পফুল। ২৪ ঘণ্টা সাহায্য পাই।"</p>
+      <p><strong>তানভীর রানা:</strong> "আমার অফিসে রিয়াল আইপি কানেকশন নিচ্ছি, একদম পারফেক্ট।"</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="আপনার নাম" required />
+        <input type="tel" placeholder="ফোন নাম্বার" required />
+        <textarea placeholder="আপনার বার্তা" required></textarea>
+        <button type="submit">পাঠান</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="connection">
+    <h2>নতুন কানেকশন নিন</h2>
+    <div class="connection-form">
+      <form>
+        <input type="text" placeholder="আপনার পূর্ণ নাম" required />
+        <input type="text" placeholder="ঠিকানা" required />
+        <input type="tel" placeholder="ফোন নাম্বার" required />
+        <input type="email" placeholder="ইমেইল (ঐচ্ছিক)" />
+        <button type="submit">আবেদন করুন</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="map">
+    <h2>আমাদের লোকেশন</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.3718215334524!2d90.46848907595341!3d23.836037178641575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64b7cf48df1%3A0xaaaa4e24e36c9640!2z4KaV4Ka-4Ka24KeA4KaV4Ka_4Kaw4Ka-4KaHIOCmkOCmvuCmqOCnjeCmlSDgpqzgpr7gppXgprDgp4fgpr4!5e0!3m2!1sbn!2sbd!4v1721474232645!5m2!1sbn!2sbd"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>যোগাযোগ: 09613247097 | WhatsApp: 01646747097 | ঠিকানা: সিটি টাওয়ার, সাইনবোর্ড, ডেমরা, ঢাকা</p>
+    <p>&copy; 2025 FIVERLAND.NET</p>
+  </footer>
+
+  <!-- Facebook Messenger Chat Plugin -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"></script>
+
+  <div class="fb-customerchat"
+    attribution="setup_tool"
+    page_id="YOUR_PAGE_ID"
+    theme_color="#0084ff"
+    logged_in_greeting="হ্যালো! আমরা কীভাবে সাহায্য করতে পারি?"
+    logged_out_greeting="হ্যালো! লগইন করে আমাদের সাথে চ্যাট করুন।">
+  </div>
+
+</body>
+</html>

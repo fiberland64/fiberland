@@ -1,0 +1,104 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>FIVERLAND Admin Panel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+    }
+    header {
+      background: #2e7d32;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #e8f5e9;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav a {
+      color: #2e7d32;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    table th, table td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    .box {
+      background: #ffffff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FIVERLAND.NET অ্যাডমিন প্যানেল</h1>
+  </header>
+
+  <nav>
+    <a href="#requests">নতুন কানেকশন</a>
+    <a href="#messages">যোগাযোগ বার্তা</a>
+    <a href="#reviews">রিভিউ ম্যানেজ</a>
+  </nav>
+
+  <section id="requests" class="box">
+    <h2>নতুন কানেকশন আবেদন</h2>
+    <table>
+      <tr>
+        <th>নাম</th><th>ঠিকানা</th><th>ফোন</th><th>ইমেইল</th>
+      </tr>
+      <tr>
+        <td>রাব্বি ইসলাম</td>
+        <td>ডেমরা, ঢাকা</td>
+        <td>017XXXXXXXX</td>
+        <td>rabi@example.com</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="messages" class="box">
+    <h2>যোগাযোগ বার্তা</h2>
+    <table>
+      <tr>
+        <th>নাম</th><th>ফোন</th><th>বার্তা</th>
+      </tr>
+      <tr>
+        <td>সাবিনা</td>
+        <td>018XXXXXXXX</td>
+        <td>ইন্টারনেট স্পিড কমে গেছে</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="reviews" class="box">
+    <h2>রিভিউ</h2>
+    <p><strong>রাকিব:</strong> "সার্ভিস ভালো, কিন্তু মাঝে মাঝে ডিসকানেক্ট হয়।" <button>মুছে ফেলুন</button></p>
+    <p><strong>সানজিদা:</strong> "সার্ভিস এক কথায় দুর্দান্ত।" <button>মুছে ফেলুন</button></p>
+    <form>
+      <h4>নতুন রিভিউ যুক্ত করুন:</h4>
+      <input type="text" placeholder="নাম" required>
+      <textarea placeholder="রিভিউ লিখুন..." required></textarea><br>
+      <button type="submit">যুক্ত করুন</button>
+    </form>
+  </section>
+</body>
+</html>
